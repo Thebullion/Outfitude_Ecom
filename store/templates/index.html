@@ -10,8 +10,8 @@
    <div class="row mx-auto">
        {% for product in products %}
 
-       <div class="card mx-auto" style="width: 18rem;">
-              <img src="https://cdn.shopify.com/s/files/1/0569/0284/4581/products/Solid_Formal_Shirt_In_Black_Dawn-MSNM0972Z1NA22FN-image1.jpg?v=1660447825" class="card-img-top" alt="...">
+       <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="{{product.Image}}" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">{{product.Name}}</h5>
                 <p class="card-text">{{product.Price}}</p>
